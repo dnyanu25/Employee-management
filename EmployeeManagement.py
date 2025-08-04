@@ -143,7 +143,8 @@ status_entry.place(x=150, y=260)
 # add_button = customtkinter.CTkButton(app, command=insert, font=font1, text='ADD Employee', text_color='#fff',
 #                                      fg_color='#05A312', bg_color='#161C25', cursor='hand2', corner_radius=15,
 #                                      width=260, hover_color='#00850B')
-# add_button.place(x=20, y=310)
+# add_button.place(x=20, y=310) 
+#
 
 
 add_button = customtkinter.CTkButton(app, command=lambda: insertValue(id_entry, name_entry, des_entry, variable1, status_entry),
@@ -198,6 +199,7 @@ tree.place(x=600, y=40)
 tree.bind('<ButtonRelease>', display_data)
 add_to_treeview()
 app.mainloop()
+
 
 
 
