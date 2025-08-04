@@ -6,7 +6,7 @@ from tkinter import messagebox
 import databaseConnection
 from insert import insertValue
 from utils import add_to_treeview, clear  # Import from utils.py 
-#function
+
 def insert_button_clicked():
     from insert import insertValue  # Move the import here to avoid circular import
     insertValue(id_entry, name_entry, des_entry, variable1, status_entry)
@@ -199,6 +199,7 @@ tree.place(x=600, y=40)
 tree.bind('<ButtonRelease>', display_data)
 add_to_treeview()
 app.mainloop()
+
 
 
 
