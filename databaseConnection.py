@@ -21,6 +21,7 @@ def fetch_data():
      emp=cursor.fetchall()
      conn.close()
      return emp
+    #insrting data
 
 def insert_data(id,name,des,gender,status):
      conn=sqlite3.connect('employee.db')
@@ -54,5 +55,6 @@ def id_exists(id):
 create_table()
      
      
+
 
 
