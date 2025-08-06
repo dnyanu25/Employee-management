@@ -42,7 +42,7 @@ def update_data(new_name,new_des,new_gender,new_status,id):
      cursor.execute("UPDATE employeeData SET name=?,des=?,gender=?,status=? WHERE id=?",(new_name,new_des,new_gender,new_status,id))
      conn.commit()
      conn.close()
-
+#to check id
 def id_exists(id):
      conn=sqlite3.connect('employee.db')
      cursor=conn.cursor()
@@ -54,4 +54,5 @@ def id_exists(id):
 create_table()
      
      
+
 
