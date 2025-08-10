@@ -9,7 +9,7 @@ A simple Python-based Employee Management System that uses a SQLite database for
 - View existing records
 - Update employee information
 - Delete employee records
-- Persistent storage using SQLite
+- Persistent storage using database SQLite
 
 ## 🛠️ Technologies Used
 
